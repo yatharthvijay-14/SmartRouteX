@@ -1,12 +1,11 @@
 HELP.md
 ARCHITECTURE_NOTES.md
+*.pdf
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Frontend subdirectory (stored in dedicated repo)
-frontend/
 
 # Environment files and credentials
 .env
@@ -42,3 +41,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Frontend generated files
+frontend/node_modules/
+frontend/dist/
